@@ -1,4 +1,4 @@
-# NextCloudCookbookToCooklang
+# NextCloud Cookbook To Cooklang
 A utility to convert NextCloud Cookbook JSON files to Cooklang format.
 
 # Why?
