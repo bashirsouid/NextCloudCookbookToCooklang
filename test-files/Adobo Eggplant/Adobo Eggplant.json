@@ -1,0 +1,55 @@
+{
+    "@context": "http:\/\/schema.org",
+    "@type": "Recipe",
+    "name": "Adobo Eggplant",
+    "image": "https:\/\/assets.bonappetit.com\/photos\/5f35a723eae1e0860f2aa6fd\/16:9\/w_1000,c_limit\/Basically-EggplantAdobo.jpg",
+    "author": {
+        "@type": "Person",
+        "name": "Sohla El-Waylly"
+    },
+    "publisher": {
+        "@type": "Organization",
+        "name": "Bon App\u00e9tit",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https:\/\/www.bonappetit.com\/images\/logo-foodculture-tablet@1x.png",
+            "width": "322",
+            "height": "56"
+        }
+    },
+    "datePublished": "2020-08-23T04:00:00.000-04:00",
+    "dateCreated": "0",
+    "description": "Adobo\u2014both a style of preparation as well as the name of a dish\u2014is one of the most widely known foods of the Philippines, often referred to as its national dish. To make adobo, which can be wet (very saucy) or dry (crispier and less soupy), pork, chicken, tubers, vegetables, squid, lamb, shrimp, or even duck, is simmered in vinegar, often with soy sauce, black peppercorns, and bay leaves. This recipe channels the same flavors of bright vinegar and dark soy sauce, using eggplant as the base, with the addition of ground pork for extra richness. ",
+    "recipeYield": 2,
+    "recipeIngredient": [
+        "1 lb. small Japanese or Italian eggplant (about 3)",
+        "2 Tbsp. (or more) sugar, divided",
+        "1\u00bc tsp. Diamond Crystal or \u00be tsp. Morton kosher salt, divided, plus more",
+        "1\u00bd tsp. freshly ground black pepper, divided",
+        "8 garlic cloves",
+        "3 Tbsp. (or more) vegetable oil",
+        "4 oz. ground pork",
+        "3 Tbsp. coconut vinegar or unseasoned rice vinegar",
+        "2 Tbsp. soy sauce",
+        "2 bay leaves",
+        "Cooked white rice (for serving)"
+    ],
+    "recipeInstructions": [
+        "Slice 1 lb. small Japanese or Italian eggplant (about 3) into quarters lengthwise, then cut crosswise into 2\"-wide pieces. Place in a medium bowl. Add 1 Tbsp. sugar, 1 tsp. Diamond Crystal or \u00bd tsp. Morton kosher salt, and \u00bd tsp. freshly ground black pepper. Toss to evenly coat eggplant and let sit at room temperature at least 20 minutes and up to 2 hours.",
+        "Peel and thinly slice 8 garlic cloves. Add 3 Tbsp. vegetable oil and half of garlic to a medium Dutch oven or other heavy pot. Cook over medium-high heat, stirring constantly with a wooden spoon, until light golden and crisp, about 5 minutes. Using a slotted spoon, transfer garlic chips to a plate; season lightly with salt.",
+        "Place 4 oz. ground pork in same pot and break up into small pieces with wooden spoon. Season with \u00bc tsp. Diamond Crystal or Morton kosher salt and cook, undisturbed, until deeply browned underneath, about 5 minutes. Using slotted spoon, transfer to another plate, leaving fat behind in pot.",
+        "Place eggplant on a clean kitchen towel and blot away any moisture the salt has drawn out.",
+        "Working in batches and adding more oil if needed, cook eggplant in same pot until lightly browned, about 3 minutes per side. Transfer to plate with pork.",
+        "Pour 1\u00bd cups water into pot and scrape up browned bits from bottom with wooden spoon. Add remaining garlic, 3 Tbsp. coconut vinegar or unseasoned rice vinegar, 2 Tbsp. soy sauce, 2 bay leaves, 1 tsp. freshly ground black pepper, and remaining 1 Tbsp. sugar. Bring to a simmer, then return pork and eggplant to pot. Reduce heat to medium-low, partially cover, and simmer until eggplant is tender and silky and sauce is reduced by half, 20\u201325 minutes. Taste and season with more salt and pepper and add a little more sugar if needed.",
+        "Top with garlic chips and serve with cooked white rice."
+    ],
+    "nutrition": "",
+    "recipeCategory": "Sides",
+    "keywords": "",
+    "url": "https:\/\/www.bonappetit.com\/recipe\/eggplant-adobo",
+    "id": "15057",
+    "dateModified": "1598329901",
+    "printImage": "true",
+    "imageUrl": "\/apps\/cookbook\/recipes\/15057\/image?size=full",
+    "tool": []
+}

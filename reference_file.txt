@@ -1,0 +1,108 @@
+Below is a detailed specification of Cooklang syntax and structure:
+
+### Ingredients
+- Ingredients are tagged using the `@` symbol.
+- Quantities are enclosed in `{}` after the ingredient name.
+- Units of measurement are specified with `%` following the quantity.
+
+Examples:
+```
+Add @sugar{2%cups} to the bowl.
+Sprinkle @salt{} to taste.
+```
+
+### Steps
+- Each paragraph represents a single cooking step.
+- Steps are separated by empty lines.
+
+Example:
+```
+Chop @onion{1}.
+
+Fry the @onion{} in a #pan{} until golden brown.
+```
+
+### Cookware
+- Cookware is tagged using the `#` symbol.
+- Multi-word cookware names can be enclosed in `{}`.
+
+Examples:
+```
+Heat water in a #pot{}.
+Use a #wooden spoon{} to stir.
+```
+
+### 4. Timers
+- Timers are defined with the `~` symbol.
+- Timers can include a name and duration.
+
+Examples:
+```
+Bake for ~{30%minutes}.
+Boil @eggs{2} for ~eggs{7%minutes}.
+```
+
+### 5. Metadata
+- Metadata is included as YAML front matter at the beginning of the file, enclosed by `---`.
+- Tags should be one per line with a dash in front. You should always include tags.
+- Make all tag values be all lowercase characters.
+
+Example:
+```
+---
+title: Chocolate Cake
+servings: 8
+author: Jane Doe
+prep time: 15 minutes
+cook time: 30 minutes
+tags:
+  - american
+  - dessert
+  - oven
+---
+```
+
+### Sections and Comments
+- Notes: Use `>` to add additional information or tips.
+- Sections: Define sections of recipes with headers like `==Section Name==`.
+
+Examples:
+```
+> This recipe works best with fresh ingredients.
+
+==Sauce==
+Mix @tomato paste{1%cup} with @water{1/2%cup}.
+```
+
+### Short-hand preparations
+
+Many recipes involve repetitive ingredient preparations, such as peeling or chopping. To simplify this, you can define these common preparations directly within the ingredient reference using shorthand syntax:
+
+Mix @onion{1}(peeled and finely chopped) and @garlic{2%cloves}(peeled and minced) into paste.
+
+### Additional Notes and Instructions
+
+These are things to keep in mind to format as I want done for my recipe text:
+- You should NEVER have a separate ingredients section. The Cooklang specification defines ingredient values inline inside the text.
+- In the top matter for "prep time" and "cook time" they should ALWAYS be number of minutes formated such as "10 minutes" and NEVER anything like "~{60%minutes} + ~{15%minutes}" which has special characters and two numbers for prep time and cook time on the same line. We ONLY want one value on each line EVER.
+- Please use the short-hand preparation format above whenever possible. It is okay to reword sentences to make it more readable when including the short-hand preparation instructions. Remember that short-hand preparation instructions are in parenthesis AFTER the ingredient list, not inside. For example, it should say "@onion{1}(peeled and finely chopped)".
+- I live in the United States, so it is preferable to use USA values for ingredients such as teaspoons, tablespoons, ounces, and pounds.
+- Please always abbreviate tablespoons as tbsp, teaspoons as tsp, ounces as oz, and pounds as lb. These measurement values should ALWAYS be all lowercase.
+- Always remember to separate the quantity for a unit and the measurement for a unit with a % sign. For example "@flour{1%cup}". Do NOT forget this EVER!
+- It is less ideal to mix full numbers and fractions together such as "2 1/4 cup". In that case, it is better to just convert to a decimal value such as "2.25 cup".
+- Temperature is NEVER an ingredient, so you should never write something like "Preheat #oven{} to 500F". You should instead just say "Preheat #oven{} to 500F".
+- Avoid ranges of values whenever possible, such as "bake for ~{10-15%min}". Just choose a value half-way through the range instead (but round to the nearest full number). For example that range of 10-15min could instead be written as "bake for ~{12%min}".
+- Include a "tags" section in the metadata area of the file that lists helpful tags including the following (it is okay to use the internet to lookup the values for these items):
+  - The primary meal for this recipe (ex: breakfast, lunch, dinner, dessert, drink)
+  - Countries that eat this cuisine (ex: India, France, Germany)
+  - The cooking methods (ex: stove, oven, grill, smoker)
+- Include the following additional metadata values in the top matter for specific data items. Ideally, use this order for those metadata values. No need to delete any extra values present if there are additional ones to the below:
+  - Include "title" for the title of the recipe
+  - Include "description" for a one sentence description of the food (ex: A traditional comfort food in the American South-West consisting of meat and potatoes served over rice.)
+  - Include "course" for the meal category or course (ex: dinner, lunch, dessert)
+  - Include "cuisine" for the cuisine of the recipe (ex: french, english, indian)
+  - Include "servings" for the number of people the recipe is for
+  - Include "author" for who wrote the recipe (if known). If unknown then say "Unknown Author".
+  - Include "source" for the URL to the original recipe. If unknown then say "Unknown Source".
+  - Include "prep time" for preparation time. This line should not have cooklang timer syntax like "~{10%min}" but rather just say "10 minutes". There should be no pluses to have two separate numbers combined on one line. If the format of this line is wrong, then replace with value from the internet.
+  - Include "cook time" for cooking time. UThis line should not have cooklang timer syntax like "~{10%min}" but rather just say "10 minutes". There should be no pluses to have two separate numbers combined on one line. If the format of this line is wrong, then replace with value from the internet.

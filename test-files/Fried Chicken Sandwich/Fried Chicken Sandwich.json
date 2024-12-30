@@ -1,0 +1,75 @@
+{
+    "@context": "http://schema.org",
+    "@type": "Recipe",
+    "name": "BA's Best Fried Chicken Sandwich",
+    "image": "https://assets.bonappetit.com/photos/57acc69553e63daf11a4d9e9/16:9/w_1000,c_limit/iphone-real-fried-chicken-sandwich.jpg",
+    "author": {
+      "@type": "Person",
+      "name": "Claire Saffitz"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "Bon Appétit",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://www.bonappetit.com/images/logo-foodculture-tablet@1x.png",
+        "width": 322,
+        "height": 56
+      }
+    },
+    "datePublished": "2016-02-16T03:00:00.000-05:00",
+    "dateCreated": "2020-05-14T08:06:00.000-04:00",
+    "description": "This fried chicken sandwich sandwich is engineered for maximum impact. Each element is awesome, but the way they come together puts it over the top.",
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "ratingValue": "4.14",
+      "reviewCount": "30"
+    },
+    "recipeYield": 1,
+    "recipeIngredient": [
+      "1 tablespoon Diamond Crystal or 1¾ teaspoons Morton kosher salt",
+      "1 teaspoon light brown sugar",
+      "1 teaspoon baking powder",
+      "4 skin-on or skinless, boneless chicken thighs",
+      "1 garlic clove, finely grated",
+      "2 tablespoons fresh lemon juice",
+      "½ cup mayonnaise",
+      "2 tablespoons finely chopped chives",
+      "½ teaspoon celery seeds",
+      "½ teaspoon freshly ground black pepper",
+      "Kosher salt",
+      "1½ cups all-purpose flour",
+      "⅓ cup cornstarch",
+      "1 tablespoon garlic powder",
+      "1 tablespoon onion powder",
+      "1 tablespoon paprika",
+      "2 teaspoons cayenne pepper",
+      "2 tablespoons Diamond Crystal or 3½ teaspoons Morton kosher salt, plus more",
+      "1 large egg, beaten to blend",
+      "1 cup buttermilk",
+      "2 tablespoons bourbon (optional)",
+      "3 tablespoons hot sauce (such as Frank's); plus more for serving (optional)",
+      "Peanut or vegetable oil (for frying; about 8 cups)",
+      "4 seeded soft hamburger buns",
+      "3 tablespoons unsalted butter, melted",
+      "Bread-and-Butter Pickles (for serving), plus 1 tablespoon brine",
+      "4 cups thinly sliced iceberg lettuce",
+      "Freshly ground black pepper",
+      "A deep-fry thermometer"
+    ],
+    "recipeInstructions": [
+      "Chicken: Mix salt, sugar, and baking powder in a small bowl. Season chicken all over with salt mixture (you won’t need all of it). Chill uncovered on a wire rack set inside a rimmed baking sheet, at least 2 hours and up to 1 day.",
+      "Seasoned Mayonnaise: Combine garlic and lemon juice in a medium bowl; let sit 10 minutes. Mix in mayonnaise, chives, celery seeds, and pepper; season with salt.",
+      "Assembly: Whisk flour, cornstarch, garlic powder, onion powder, paprika, cayenne, and 2 Tbsp. salt in a medium bowl. Whisk egg, buttermilk, bourbon (if using), and 3 Tbsp. hot sauce in another medium bowl. Working with 1 piece at a time, dredge chicken in flour mixture, turning to coat and packing into crevices. Shake to remove excess; return to rack. Pour 3 Tbsp. buttermilk mixture into flour mixture and work in with your fingers. Dip chicken into remaining buttermilk mixture, allow excess to drip off, then pack moistened flour mixture firmly onto chicken. Gently shake off excess; return to rack. Chill at least 30 minutes and up to 12 hours.",
+      "Pour oil into a large heavy pot fitted with thermometer to come halfway up sides. Heat over medium-high until thermometer registers 350°. Working in 2 batches, fry chicken, turning often and adjusting heat to maintain temperature, until deep golden brown, 5–8 minutes per batch. Transfer to a wire rack set over paper towels to drain.",
+      "Heat a dry large skillet, preferably cast iron, over medium. Brush cut sides of buns with butter and, working in batches, cook, cut side down, until deep golden brown, about 2 minutes per batch.",
+      "Mix 1 Tbsp. pickle brine into 2 Tbsp. seasoned mayonnaise in a medium bowl. Add lettuce, season with salt and pepper, and toss to coat. Spread some seasoned mayonnaise over cut sides of buns. Build sandwiches with pickles, fried chicken, slaw, and more hot sauce, if desired."
+    ],
+    "nutrition": "Calories (kcal) 770 Fat (g) 43 Saturated Fat (g) 12 Cholesterol (mg) 175 Carbohydrates (g) 63 Dietary Fiber (g) 4 Total Sugars (g) 9 Protein (g) 32 Sodium (mg) 3920",
+    "calories": "770",
+    "recipeCategory": "",
+    "keywords": "",
+    "tool": [],
+    "url": "https://www.bonappetit.com/recipe/bas-best-fried-chicken-sandwich"
+  }
+  
